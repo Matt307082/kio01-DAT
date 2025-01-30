@@ -5,15 +5,57 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="180" width="30.5" height="50" as="geometry" />
+          <mxGeometry x="160" y="170" width="30.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="310" width="30.5" height="50" as="geometry" />
+          <mxGeometry x="160" y="300" width="30.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lr8Hqg_oxct5Z8LOXTPq-2" target="lr8Hqg_oxct5Z8LOXTPq-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-8" value="pox1.cube.local&lt;br&gt;Master pfsense 2.5.2&lt;div&gt;nuc05&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105.25" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-9" value="pox2.cube.local&lt;br&gt;Backup pfsense 2.5.2&lt;div&gt;nuc04&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105.25" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-18" value="Vlan 7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="420" as="sourcePoint" />
+            <mxPoint x="170" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="290" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-24" value="Vlan 106" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="10" y="130" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="70" as="sourcePoint" />
+            <mxPoint x="170" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="360" as="sourcePoint" />
+            <mxPoint x="290" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

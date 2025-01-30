@@ -58,6 +58,33 @@
             <mxPoint x="290" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lr8Hqg_oxct5Z8LOXTPq-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="160" as="sourcePoint" />
+            <mxPoint x="720" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lr8Hqg_oxct5Z8LOXTPq-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="260" as="sourcePoint" />
+            <mxPoint x="700" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lr8Hqg_oxct5Z8LOXTPq-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="360" as="sourcePoint" />
+            <mxPoint x="680" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-31" value="Vlan 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="150" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-32" value="Vlan 100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="250" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-33" value="Vlan 202" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="350" width="70" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

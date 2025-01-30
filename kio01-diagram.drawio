@@ -1,26 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="4XsgplsU4JQsvvkTDyJq">
-    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="170" width="30.5" height="50" as="geometry" />
+          <mxGeometry x="160" y="110" width="30.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="300" width="30.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lr8Hqg_oxct5Z8LOXTPq-2" target="lr8Hqg_oxct5Z8LOXTPq-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="320" as="sourcePoint" />
-            <mxPoint x="440" y="270" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="160" y="360" width="30.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-8" value="pox1.cube.local&lt;br&gt;Master pfsense 2.5.2&lt;div&gt;nuc05&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="105.25" y="350" width="140" height="60" as="geometry" />
+          <mxGeometry x="105.25" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-9" value="pox2.cube.local&lt;br&gt;Backup pfsense 2.5.2&lt;div&gt;nuc04&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="105.25" y="100" width="140" height="60" as="geometry" />
+          <mxGeometry x="105.25" y="50" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-18" value="Vlan 7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="10" y="380" width="70" height="20" as="geometry" />
@@ -105,6 +99,15 @@
         </mxCell>
         <mxCell id="lr8Hqg_oxct5Z8LOXTPq-39" value="Switch D-link&amp;nbsp;&lt;div&gt;DGS-1100-16&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="235" y="285" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-40" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lr8Hqg_oxct5Z8LOXTPq-2" target="lr8Hqg_oxct5Z8LOXTPq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="320" as="sourcePoint" />
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lr8Hqg_oxct5Z8LOXTPq-41" value="Vlan 201&lt;div&gt;pfsync&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
